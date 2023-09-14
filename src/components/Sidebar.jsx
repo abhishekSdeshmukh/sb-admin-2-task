@@ -39,9 +39,9 @@ const Sidebar = () => {
 
         {/* //<!-- Nav Item - Dashboard --> */}
         <li className="nav-item active">
-            <a className="nav-link" href="index.html">
+            <button className="nav-link" onClick={toggleSidebar}>
                 <i className="fas fa-fw fa-tachometer-alt"></i>
-                <span>Dashboard</span></a>
+                <span>Dashboard</span></button>
         </li>
 
         {/* //<!-- Divider --> */}
@@ -54,11 +54,11 @@ const Sidebar = () => {
 
         {/* //<!-- Nav Item - Pages Collapse Menu --> */}
         <li className={`nav-item ${isComponentsOpen ? 'active' : ''}`}>
-            <a className={`nav-link ${isComponentsOpen ? '': 'collasped'}`} href="index.html"  onClick={toggleComponents}
+            <button className={`nav-link ${isComponentsOpen ? '': 'collasped'}`}  onClick={toggleComponents}
                 aria-expanded={isComponentsOpen} >
                 <i className="fas fa-fw fa-cog"></i>
                 <span>Components</span>
-            </a>
+            </button>
             <div id="collapseTwo" className={`collapse ${isComponentsOpen? 'show' : ''}`} aria-labelledby="headingTwo" data-parent="#accordionSidebar">
                 <div className="bg-white py-2 collapse-inner rounded">
                     <h6 className="collapse-header">Custom Components:</h6>
@@ -70,13 +70,13 @@ const Sidebar = () => {
 
         {/* //<!-- Nav Item - Utilities Collapse Menu --> */}
         <li className={`nav-item ${isUtilitiesOpen ? 'active' : ''}`}>
-            <a className={`nav-link ${isUtilitiesOpen ? '' : 'collapsed'}`}
-          href="index.html"  
+            <button className={`nav-link ${isUtilitiesOpen ? '' : 'collapsed'}`}
+           
           onClick={toggleUtilities}
           aria-expanded={isUtilitiesOpen}>
                 <i className="fas fa-fw fa-wrench"></i>
                 <span>Utilities</span>
-            </a>
+            </button>
             <div id="collapseUtilities" className={`collapse ${isUtilitiesOpen ? 'show' : ''}`} aria-labelledby="headingUtilities"
                 data-parent="#accordionSidebar">
                 <div className="bg-white py-2 collapse-inner rounded">
@@ -99,15 +99,15 @@ const Sidebar = () => {
 
         {/* //<!-- Nav Item - Pages Collapse Menu --> */}
         <li className={`nav-item ${isPagesOpen ? 'active' : ''}`}>
-        <a
+        <button
           className={`nav-link ${isPagesOpen ? '' : 'collapsed'}`}
-          href="index.html"  
+          
           onClick={togglePages}
           aria-expanded={isPagesOpen}
         >
           <i className="fas fa-fw fa-folder"></i>
           <span>Pages</span>
-        </a>
+        </button>
         <div className={`collapse ${isPagesOpen ? 'show' : ''}`} id="collapsePages" aria-labelledby="headingPages" data-parent="#accordionSidebar">
           <div className="bg-white py-2 collapse-inner rounded">
             <h6 className="collapse-header">Login Screens:</h6>
