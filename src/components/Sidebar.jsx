@@ -39,9 +39,9 @@ const Sidebar = () => {
 
         {/* //<!-- Nav Item - Dashboard --> */}
         <li className="nav-item active">
-            <button className="nav-link" onClick={toggleSidebar}>
+            <a className="nav-link" href='index.html'>
                 <i className="fas fa-fw fa-tachometer-alt"></i>
-                <span>Dashboard</span></button>
+                <span>Dashboard</span></a>
         </li>
 
         {/* //<!-- Divider --> */}
@@ -55,7 +55,7 @@ const Sidebar = () => {
         {/* //<!-- Nav Item - Pages Collapse Menu --> */}
         <li className={`nav-item ${isComponentsOpen ? 'active' : ''}`}>
             <button className={`nav-link ${isComponentsOpen ? '': 'collasped'}`}  onClick={toggleComponents}
-                aria-expanded={isComponentsOpen} >
+                aria-expanded={isComponentsOpen} style={{backgroundColor: 'transparent', border:'none'}}>
                 <i className="fas fa-fw fa-cog"></i>
                 <span>Components</span>
             </button>
@@ -103,7 +103,7 @@ const Sidebar = () => {
           className={`nav-link ${isPagesOpen ? '' : 'collapsed'}`}
           
           onClick={togglePages}
-          aria-expanded={isPagesOpen}
+          aria-expanded={isPagesOpen} style={{backgroundColor: 'transparent', border:'none'}}
         >
           <i className="fas fa-fw fa-folder"></i>
           <span>Pages</span>
