@@ -33,7 +33,7 @@ const Topbar = () => {
             <li className="nav-item dropdown no-arrow d-sm-none">
               <a
                 class="nav-link dropdown-toggle"
-                href="#"
+                href="https://example.com"
                 id="searchDropdown"
                 role="button"
                 data-toggle="dropdown"
@@ -68,7 +68,7 @@ const Topbar = () => {
             <li className="nav-item dropdown no-arrow mx-1">
               <a
                 class="nav-link dropdown-toggle"
-                href="#"
+                href="https://example.com"
                 id="alertsDropdown"
                 role="button"
                 data-toggle="dropdown"
@@ -85,7 +85,7 @@ const Topbar = () => {
                 aria-labelledby="alertsDropdown"
               >
                 <h6 class="dropdown-header">Alerts Center</h6>
-                <a class="dropdown-item d-flex align-items-center" href="#">
+                <a class="dropdown-item d-flex align-items-center" href="https://example.com">
                   <div class="mr-3">
                     <div class="icon-circle bg-primary">
                       <i class="fas fa-file-alt text-white"></i>
@@ -98,7 +98,7 @@ const Topbar = () => {
                     </span>
                   </div>
                 </a>
-                <a class="dropdown-item d-flex align-items-center" href="#">
+                <a class="dropdown-item d-flex align-items-center" href="https://example.com">
                   <div class="mr-3">
                     <div class="icon-circle bg-success">
                       <i class="fas fa-donate text-white"></i>
@@ -109,7 +109,7 @@ const Topbar = () => {
                     $290.29 has been deposited into your account!
                   </div>
                 </a>
-                <a class="dropdown-item d-flex align-items-center" href="#">
+                <a class="dropdown-item d-flex align-items-center" href="https://example.com">
                   <div class="mr-3">
                     <div class="icon-circle bg-warning">
                       <i class="fas fa-exclamation-triangle text-white"></i>
@@ -123,7 +123,7 @@ const Topbar = () => {
                 </a>
                 <a
                   class="dropdown-item text-center small text-gray-500"
-                  href="#"
+                  href="https://example.com"
                 >
                   Show All Alerts
                 </a>
@@ -132,7 +132,7 @@ const Topbar = () => {
             <li className="nav-item dropdown no-arrow mx-1">
               <a
                 class="nav-link dropdown-toggle"
-                href="#"
+                href="https://example.com"
                 id="messagesDropdown"
                 role="button"
                 data-toggle="dropdown"
@@ -149,7 +149,7 @@ const Topbar = () => {
                 aria-labelledby="messagesDropdown"
               >
                 <h6 class="dropdown-header">Message Center</h6>
-                <a class="dropdown-item d-flex align-items-center" href="#">
+                <a class="dropdown-item d-flex align-items-center" href="https://example.com">
                   <div class="dropdown-list-image mr-3">
                     <img
                       class="rounded-circle"
@@ -166,7 +166,7 @@ const Topbar = () => {
                     <div class="small text-gray-500">Emily Fowler · 58m</div>
                   </div>
                 </a>
-                <a class="dropdown-item d-flex align-items-center" href="#">
+                <a class="dropdown-item d-flex align-items-center" href="https://example.com">
                   <div class="dropdown-list-image mr-3">
                     <img
                       class="rounded-circle"
@@ -183,7 +183,7 @@ const Topbar = () => {
                     <div class="small text-gray-500">Jae Chun · 1d</div>
                   </div>
                 </a>
-                <a class="dropdown-item d-flex align-items-center" href="#">
+                <a class="dropdown-item d-flex align-items-center" href="https://example.com">
                   <div class="dropdown-list-image mr-3">
                     <img
                       class="rounded-circle"
@@ -200,7 +200,7 @@ const Topbar = () => {
                     <div class="small text-gray-500">Morgan Alvarez · 2d</div>
                   </div>
                 </a>
-                <a class="dropdown-item d-flex align-items-center" href="#">
+                <a class="dropdown-item d-flex align-items-center" href="https://example.com">
                   <div class="dropdown-list-image mr-3">
                     <img
                       class="rounded-circle"
@@ -220,7 +220,7 @@ const Topbar = () => {
                 </a>
                 <a
                   class="dropdown-item text-center small text-gray-500"
-                  href="#"
+                  href="https://example.com"
                 >
                   Read More Messages
                 </a>
@@ -230,7 +230,7 @@ const Topbar = () => {
             <li className="nav-item dropdown no-arrow">
               <a
                 class="nav-link dropdown-toggle"
-                href="#"
+                href="https://example.com"
                 id="userDropdown"
                 role="button"
                 data-toggle="dropdown"
@@ -251,22 +251,22 @@ const Topbar = () => {
                 class="dropdown-menu dropdown-menu-right shadow animated--grow-in"
                 aria-labelledby="userDropdown"
               >
-                <a class="dropdown-item" href="#">
+                <a class="dropdown-item" href="https://example.com">
                   <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
                   Profile
                 </a>
-                <a class="dropdown-item" href="#">
+                <a class="dropdown-item" href="https://example.com">
                   <i class="fas fa-cogs fa-sm fa-fw mr-2 text-gray-400"></i>
                   Settings
                 </a>
-                <a class="dropdown-item" href="#">
+                <a class="dropdown-item" href="https://example.com">
                   <i class="fas fa-list fa-sm fa-fw mr-2 text-gray-400"></i>
                   Activity Log
                 </a>
                 <div class="dropdown-divider"></div>
                 <a
                   class="dropdown-item"
-                  href="#"
+                  href="https://example.com"
                   data-toggle="modal"
                   data-target="#logoutModal"
                 >

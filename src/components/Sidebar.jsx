@@ -54,7 +54,7 @@ const Sidebar = () => {
 
         {/* //<!-- Nav Item - Pages Collapse Menu --> */}
         <li className={`nav-item ${isComponentsOpen ? 'active' : ''}`}>
-            <a className={`nav-link ${isComponentsOpen ? '': 'collasped'}`} href="#"  onClick={toggleComponents}
+            <a className={`nav-link ${isComponentsOpen ? '': 'collasped'}`} href="https://example.com" onClick={toggleComponents}
                 aria-expanded={isComponentsOpen} >
                 <i className="fas fa-fw fa-cog"></i>
                 <span>Components</span>
@@ -71,7 +71,7 @@ const Sidebar = () => {
         {/* //<!-- Nav Item - Utilities Collapse Menu --> */}
         <li className={`nav-item ${isUtilitiesOpen ? 'active' : ''}`}>
             <a className={`nav-link ${isUtilitiesOpen ? '' : 'collapsed'}`}
-          href="#"
+          href="https://example.com"
           onClick={toggleUtilities}
           aria-expanded={isUtilitiesOpen}>
                 <i className="fas fa-fw fa-wrench"></i>
@@ -101,7 +101,7 @@ const Sidebar = () => {
         <li className={`nav-item ${isPagesOpen ? 'active' : ''}`}>
         <a
           className={`nav-link ${isPagesOpen ? '' : 'collapsed'}`}
-          href="#"
+          href="https://example.com"
           onClick={togglePages}
           aria-expanded={isPagesOpen}
         >
