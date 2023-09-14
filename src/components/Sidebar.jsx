@@ -73,7 +73,7 @@ const Sidebar = () => {
             <button className={`nav-link ${isUtilitiesOpen ? '' : 'collapsed'}`}
            
           onClick={toggleUtilities}
-          aria-expanded={isUtilitiesOpen}>
+          aria-expanded={isUtilitiesOpen} style={{backgroundColor: 'transparent'}}>
                 <i className="fas fa-fw fa-wrench"></i>
                 <span>Utilities</span>
             </button>
